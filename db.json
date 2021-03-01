@@ -4,6 +4,21 @@
       "id": 1,
       "name": "101 dalmations",
       "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_101dalmatians_481ccd9d.jpeg?region=0,0,540,810&width=320"
+    },
+    {
+      "id": 2,
+      "name": "A Bug's Life",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-qvkrgw_24d6f92f.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 3,
+      "name": "Aladdin",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_aladdin_18128_1a804ee3.jpeg?region=0,0,540,810&width=320"
+    },
+    {
+      "id": 4,
+      "name": "A wrinkle in time",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_awrinkleintime_0862db68.jpeg?region=0,0,300,450"
     }
   ]
 }
