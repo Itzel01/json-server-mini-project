@@ -8,16 +8,17 @@ console.log("Hellow")
 
  document.addEventListener("DOMContentLoaded", () => {
     let addAMovie = document.getElementById("add-a-movie");
-    // let movieName = document.getElementById("movie-name");
-    // let movieImg = document.getElementById("movie-URL");
+    addAMovie.addEventListener("submit", addMovies); 
+
     let AddMovieButton = document.getElementById("AddMovieButton");
     let movieDiv = document.getElementById("card");
-    
+
+
     fetch("http://localhost:3000/movies")
     .then(res => res.json())
     .then(data => displayMovies(data))
 
-    addAMovie.addEventListener("submit", addMovies); 
+    
  })
  
  function displayMovies(data){
@@ -37,10 +38,14 @@ console.log("Hellow")
 
     cardDiv.classList = "card"
     img.classList = "avatar"
-    button.classList = "btn"
+    button.classList = "btn";
+    button.id = `${movie.id}`;
     
-    cardDiv.append(name,img, button)
-    collection.append(cardDiv)
+
+    cardDiv.append(name,img, button);
+    collection.append(cardDiv);
+
+    deleteCard(cardDiv);
 
  }
 
@@ -66,13 +71,34 @@ console.log("Hellow")
      fetch("http://localhost:3000/movies", options)
      .then(response => response.json())
      .then(data => {
-         postData(data, movieName, movieImg)
+        makecard(data)
      })
  }
 
- //DOM Manipulation
- function postData(data){
-    makecard(data)
+
+ function deleteCard (card){
+     let remove = card.children[2];
+     let name = card.children[0];
+
+     remove.addEventListener('click', (e) => {
+        fetch(`http://localhost:3000/movies?name=${name}` )
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            let options = {
+                method: "DELETE",
+                headers:{
+                    "Content-Type": "application/json"
+                }
+
+                }
+            
+            fetch(`http://localhost:3000/movies/${data[0].id}`, options)
+        })
+     card.remove();
+
+     })
 
  }
 
