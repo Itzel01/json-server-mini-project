@@ -15,13 +15,13 @@
     </div>
 
     <div class="container">
-      <form class="add-form">
+      <form class="add-form" id = "add-a-movie">
         <h3>Add your Favorite movie!</h3>
 
         <input
           type="text"
           name="name"
-          value=""
+          id = "movie-name"
           placeholder="Enter a movie's name..."
           class="input-text"
         />
@@ -29,12 +29,12 @@
         <input
           type="text"
           name="image"
-          value=""
+          id="movie-URL"
           placeholder="Enter a movie's image URL..."
           class="input-text"
         />
         <br />
-        <input
+        <input id = "AddMovieButton"
           type="submit"
           name="submit"
           value="Add a movie"
@@ -45,8 +45,8 @@
 
     <div id="collection">
       <div class="card">
-        <h2></h2>
-        <!-- <img src="http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png" class="avatar" /> -->
+        <h2 id = "add-movie-name"></h2>
+        <img class="avatar" id = "add-movie-img"/>
         <button class="btn">Remove</button>
       </div>
     </div>
