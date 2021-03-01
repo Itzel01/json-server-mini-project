@@ -1,44 +1,55 @@
 {
-    "toys": [
-      {
-        "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png"
-      },
-      {
-        "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png"
-      },
-      {
-        "id": 3,
-        "name": "Mr. Potato Head",
-        "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217"
-      },
-      {
-        "id": 4,
-        "name": "Slinky Dog",
-        "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png"
-      },
-      {
-        "id": 5,
-        "name": "Rex",
-        "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png"
-      },
-      {
-        "id": 6,
-        "name": "Bo Peep",
-        "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png"
-      },
-      {
-        "id": 7,
-        "name": "Hamm",
-        "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024"
-      },
-      {
-        "id": 8,
-        "name": "Little Green Men",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png"
-      }
-    ]
-  }
+  "movies": [
+    {
+      "id": 1,
+      "name": "101 dalmations",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_101dalmatians_481ccd9d.jpeg?region=0,0,540,810&width=320"
+
+    },
+    {
+      "id": 2,
+      "name": "A Bug's Life",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-qvkrgw_24d6f92f.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 3,
+      "name": "Aladdin",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_aladdin_18128_1a804ee3.jpeg?region=0,0,540,810&width=320"
+    },
+    {
+      "id": 4,
+      "name": "A wrinkle in time",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_awrinkleintime_0862db68.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 5,
+      "name": "Alice in Wonderland",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/image_ece05243.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 6,
+      "name": "Atlantis",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-teuizm_96dd010f.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 7,
+      "name": "Beauty and the Beast",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/movie_poster_beautyandthebeast_b1fe30dc.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 8,
+      "name": "Brave",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-1i4mxl5_e0fe5f62.jpeg?region=0,0,300,450"
+    },
+    {
+      "id": 9,
+      "name": "Enchanted",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-iwzcxv_7aec3b45.jpeg?region=0,0,300,450&width=160"
+    },
+    {
+      "id": 10,
+      "name": "Frozen",
+      "imageURL": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png"
+    }
+  ]
+}
