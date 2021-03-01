@@ -19,6 +19,16 @@
       "id": 4,
       "name": "A wrinkle in time",
       "imageURL": "https://lumiere-a.akamaihd.net/v1/images/p_awrinkleintime_0862db68.jpeg?region=0,0,300,450"
+    },
+    {
+      "name": "Alice in WonderLand",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/image_ece05243.jpeg?region=0,0,300,450",
+      "id": 5
+    },
+    {
+      "name": "Atlantis",
+      "imageURL": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-teuizm_96dd010f.jpeg?region=0,0,300,450",
+      "id": 6
     }
   ]
 }
