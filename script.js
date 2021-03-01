@@ -78,9 +78,9 @@ console.log("Hellow")
 
  function deleteCard (card){
      let remove = card.children[2];
-     let name = card.children[0];
+     let name = card.children[0].innerText;
 
-     remove.addEventListener('click', (e) => {
+     remove.addEventListener('click', () => {
         fetch(`http://localhost:3000/movies?name=${name}` )
         .then(response => {
             return response.json()
